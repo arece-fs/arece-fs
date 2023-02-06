@@ -3,6 +3,7 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 git clone https://gitlab.com/eufs/eufs_sim.git
 git clone https://gitlab.com/eufs/eufs_msgs.git
+git clone https://gitlab.com/eufs/eufs_rviz_plugins.git
 sudo apt-get install python3-pip -y
 pip3 install colcon-common-extensions -U
 export EUFS_MASTER=~/ros2_ws/src
