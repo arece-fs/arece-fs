@@ -27,4 +27,5 @@ sudo apt-get install ros-galactic-joint-state-publisher -y
 sudo apt-get install ros-galactic-xacro -y
 sudo apt-get install gazebo11 libgazebo11 libgazebo11-dev -y
 sudo apt-get install libpcl-dev -y
+sudo apt-get install ros-galactic-plotjuggler -y
 colcon build
