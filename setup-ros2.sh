@@ -20,6 +20,7 @@ echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bashrc
 source ~/ros2_ws/install/setup.bash
 sudo apt install python3-colcon-common-extensions -y
 sudo apt-get install ros-galactic-gazebo-dev -y
+sudo apt-get install ros-galactic-gazebo-plugins -y
 sudo apt-get install ros-galactic-gazebo-ros -y
 sudo apt-get install ros-galactic-ackermann-msgs -y 
 sudo apt-get install ros-galactic-joint-state-publisher -y
