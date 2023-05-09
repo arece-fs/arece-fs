@@ -5,7 +5,6 @@ git clone https://gitlab.com/eufs/eufs_msgs.git
 git clone https://gitlab.com/eufs/eufs_rviz_plugins.git
 git clone https://github.com/arece-fs/arece-sim.git
 git clone https://github.com/arece-fs/arece_msgs.git
-git clone https://github.com/arece-fs/arece_marker_debug_py
 sudo apt-get install python3-pip -y
 pip3 install colcon-common-extensions -U
 export ARECE_MASTER=~/ros2_ws/src
