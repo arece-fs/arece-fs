@@ -26,5 +26,15 @@ sudo apt-get install ros-galactic-xacro -y
 sudo apt-get install gazebo11 libgazebo11 libgazebo11-dev -y
 sudo apt-get install libpcl-dev libyaml-cpp-dev -y
 sudo apt-get install ros-galactic-plotjuggler -y
+mkdir -p ~/dev
+cd ~/dev/
+wget https://raw.githubusercontent.com/arece-fs/arece-fs/main/arece-doc.sh
+chmod +x arece-doc.sh
+echo 'alias arece-doc="~/dev/arece-doc.sh"' >> ~/.bashrc
+git clone https://github.com/ros-infrastructure/rosdoc2
+cd rosdoc2
+pip3 install --user --upgrade .
+cd ~/ros2_ws
+pip3 install --upgrade numpy==1.20.3 numexpr==2.7.3 pandas==1.5.3 pytest==7.2.0
 source ~/.bashrc
 colcon build
