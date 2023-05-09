@@ -35,6 +35,6 @@ git clone https://github.com/ros-infrastructure/rosdoc2
 cd rosdoc2
 pip3 install --user --upgrade .
 cd ~/ros2_ws
-pip3 install --upgrade numpy==1.20.3 numexpr==2.7.3 pandas==1.5.3
+pip3 install --upgrade numpy==1.20.3 numexpr==2.7.3 pandas==1.5.3 pytest==7.2.0
 source ~/.bashrc
 colcon build
