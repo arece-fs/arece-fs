@@ -36,8 +36,8 @@ sudo apt-get install ros-humble-plotjuggler -y
 mkdir -p ~/dev
 cd ~/dev/
 wget https://raw.githubusercontent.com/arece-fs/arece-fs/main/arece-doc.sh
-chmod +x arece-doc.sh
-echo 'alias arece-doc="~/dev/arece-doc.sh"' >> ~/.bashrc
+chmod +x arece_doc.sh
+echo 'alias arece_doc="~/dev/arece_doc.sh"' >> ~/.bashrc
 git clone https://github.com/ros-infrastructure/rosdoc2
 cd rosdoc2
 pip3 install --user --upgrade .
