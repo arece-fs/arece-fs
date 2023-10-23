@@ -8,6 +8,8 @@ REPOS=(
   "arece_docker"
   "arece_bot"
   "arece-website"
+  "arece_mini"
+  "arece-custom-form-html"
   "arece_state_machine_python"
   "arece-trajectory"
   "ros_can"
@@ -35,11 +37,14 @@ REPOS=(
 )
 
 TEAMS=(
-  "trajectory"
-  "perception"
-  "manufacturing"
-  "devops"
-  "control"
+  "Control"
+  "DevOps"
+  "manager"
+  "Manufacturing"
+  "Membre"
+  "Perception"
+  "Trajectory"
+  "WEB"
 )
 
 for TEAM in "${TEAMS[@]}"; do
