@@ -36,6 +36,8 @@ git clone --recursive https://github.com/arece-fs/ros_can.git
 git clone https://github.com/arece-fs/arece_trajectory_planner_python.git
 git clone https://github.com/arece-fs/arece_gps.git
 git clone https://github.com/arece-fs/arece_marker_debug_cpp.git
+git clone https://github.com/arece-fs/arece_trajectory_torch.git
+
 
 # set branchs 
 cd ~/ros2_ws/src/arece-sim
@@ -68,6 +70,12 @@ sudo apt-get install ros-humble-xacro -y
 sudo apt-get install gazebo11 libgazebo11 libgazebo11-dev -y
 sudo apt-get install libpcl-dev libyaml-cpp-dev -y
 sudo apt-get install ros-humble-plotjuggler -y
+sudo apt-get install ros-humble-foxglove-bridge
+sudo apt install ros-humble-robot-localization
+
+# bag 
+sudo apt install sudo apt-get install ros-humble-rosbag2
+
 mkdir -p ~/dev
 cd ~/dev/
 wget https://raw.githubusercontent.com/arece-fs/arece-fs/main/arece-doc.sh
