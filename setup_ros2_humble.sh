@@ -75,6 +75,7 @@ sudo apt install ros-humble-robot-localization
 
 # bag 
 sudo apt install sudo apt-get install ros-humble-rosbag2
+sudo apt install ros-humble-rosbag2-storage-mcap
 
 mkdir -p ~/dev
 cd ~/dev/
